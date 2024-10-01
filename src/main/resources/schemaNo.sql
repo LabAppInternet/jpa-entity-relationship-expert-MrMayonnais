@@ -5,7 +5,7 @@ CREATE TABLE User_lab (
 );
 
 CREATE TABLE Note (
-                      id BIGINT AUTO_INCREMENT PRIMARY KEY,
+                          id BIGINT AUTO_INCREMENT PRIMARY KEY,
                       title VARCHAR(255) NOT NULL,
                       content TEXT NOT NULL,
                       owner_id BIGINT NOT NULL,
